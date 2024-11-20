@@ -1,0 +1,26 @@
+/* About Section Styles */
+.about-container {
+    padding-top: 8rem; /* Yeh pt-32 ka kaam karega */
+    max-width: 1200px; /* Container ka maximum width set */
+    margin: 0 auto; /* Center align karega */
+    padding: 0 1rem; /* Chhoti screens ke liye thoda side padding */
+}
+
+.about-title {
+    color: blue;
+    font-size: 2.5rem; /* Yeh text-4xl ka kaam karega */
+    font-weight: bold; /* Yeh font-bold ka kaam karega */
+    margin-bottom: 1rem; /* Title aur paragraph ke beech gap */
+}
+
+@media (min-width: 768px) {
+    .about-title {
+        font-size: 3rem; /* md:text-5xl ke liye */
+    }
+}
+
+.about-text {
+    color: #4a4a4a; /* Yeh text-gray-600 ka kaam karega */
+    margin-top: 0.75rem; /* Paragraph ke upar space dene ke liye */
+    line-height: 1.6; /* Text ko readable banata hai */
+}

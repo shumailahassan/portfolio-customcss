@@ -1,0 +1,72 @@
+/* Footer Background */
+.footer-bg {
+    background-color: #ebf8ff; /* Matches bg-blue-100 */
+  }
+  
+  /* Footer Wrapper */
+  .footer-wrapper {
+    padding: 2rem 0;
+    font-family: 'Arial', sans-serif; /* Optional font adjustment */
+    color: #4a4a4a;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  
+  /* Footer Brand */
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-logo {
+    width: 80px;
+  }
+  
+  .footer-title {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-left: 2px solid #e5e7eb;
+    padding-left: 1rem;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #6b7280;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon {
+    font-size: 2rem;
+  }
+  
+  .footer-link:hover .footer-icon {
+    color: #0A66C2; /* Hover effect */
+  }
+  

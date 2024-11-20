@@ -1,154 +1,92 @@
 import React from "react";
+import '../styles/skills.css';
 
 const Skills = () => {
   return (
-    <div id="skills" className="container">
-      <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h2 className="text-xs text-indigo-500 tracking-widest font-bold title-font mb-1">
-       SKILLS
-      </h2>
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-       My Skills
-      </h1>
-    </div>
-    <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
-        <div className="flex rounded-lg h-full p-8 flex-col">
-          <div className="flex items-center mb-3">
-            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-            </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium">HTML
-            </h2>
+    <div id="skills" className="skills-container">
+      <section className="skills-section">
+        <div className="skills-content">
+          <div className="skills-header">
+            <h2 className="skills-subtitle">SKILLS</h2>
+            <h1 className="skills-title">My Skills</h1>
           </div>
-          <div className="flex-grow">
-           <div className=" relative h-1 w-full bg-gray-400">
-            <div className="absolute bg-blue-800 h-1 rounded-xl w-[70%]"></div>
+          
+          {/* HTML Skill */}
+          <div className="skill-item">
+            <div className="skill-header">
+              <div className="skill-icon">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+              </div>
+              <h2 className="skill-name">HTML</h2>
             </div>
-           <p className="font-bold text-blue-800 text-right">70%</p> 
-</div>
+            <div className="skill-progress">
+              <div className="progress-bar">
+                <div className="progress-fill" style={{ width: '70%' }}></div>
+              </div>
+              <p className="progress-text">70%</p>
+            </div>
+          </div>
 
+          {/* CSS Skill */}
+          <div className="skill-item">
+            <div className="skill-header">
+              <div className="skill-icon">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+              </div>
+              <h2 className="skill-name">CSS</h2>
+            </div>
+            <div className="skill-progress">
+              <div className="progress-bar">
+                <div className="progress-fill" style={{ width: '60%' }}></div>
+              </div>
+              <p className="progress-text">60%</p>
+            </div>
+          </div>
+
+          {/* JavaScript Skill */}
+          <div className="skill-item">
+            <div className="skill-header">
+              <div className="skill-icon">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+              </div>
+              <h2 className="skill-name">JavaScript</h2>
+            </div>
+            <div className="skill-progress">
+              <div className="progress-bar">
+                <div className="progress-fill" style={{ width: '50%' }}></div>
+              </div>
+              <p className="progress-text">50%</p>
+            </div>
+          </div>
+
+          {/* Next JS Skill */}
+          <div className="skill-item">
+            <div className="skill-header">
+              <div className="skill-icon">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+              </div>
+              <h2 className="skill-name">NEXT JS</h2>
+            </div>
+            <div className="skill-progress">
+              <div className="progress-bar">
+                <div className="progress-fill" style={{ width: '50%' }}></div>
+              </div>
+              <p className="progress-text">50%</p>
+            </div>
+          </div>
         </div>
-      </div>
-      
-          </div>
-        </div>
-
-        <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
-        <div className="flex rounded-lg h-full p-8 flex-col">
-          <div className="flex items-center mb-3">
-            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-            </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium">
-             CSS
-            </h2>
-          </div>
-          <div className="flex-grow">
-           <div className=" relative h-1 w-full bg-gray-400">
-            <div className="absolute bg-blue-800 h-1 rounded-xl w-[60%]"></div>
-            </div>
-           <p className="font-bold text-blue-800 text-right">60%</p> 
-</div>
-
-        </div>
-      </div>
-      
-          </div>
-
-          <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
-        <div className="flex rounded-lg h-full p-8 flex-col">
-          <div className="flex items-center mb-3">
-            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-            </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium">
-             JavaScript
-            </h2>
-          </div>
-          <div className="flex-grow">
-           <div className=" relative h-1 w-full bg-gray-400">
-            <div className="absolute bg-blue-800 h-1 rounded-xl w-[50%]"></div>
-            </div>
-           <p className="font-bold text-blue-800 text-right">50%</p> 
-</div>
-
-        </div>
-      </div>
-      
-          </div>
-
-          <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/3">
-        <div className="flex rounded-lg h-full p-8 flex-col">
-          <div className="flex items-center mb-3">
-            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-            </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium">
-            NEXT JS
-            </h2>
-          </div>
-          <div className="flex-grow">
-           <div className=" relative h-1 w-full bg-gray-400">
-            <div className="absolute bg-blue-800 h-1 rounded-xl w-[50%]"></div>
-            </div>
-           <p className="font-bold text-blue-800 text-right">50%</p> 
-</div>
-
-        </div>
-      </div>
-      
-          </div>
-        
-</section>
-
+      </section>
     </div>
   );
 };
+
 
 export default Skills;
