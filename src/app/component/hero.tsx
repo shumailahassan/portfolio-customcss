@@ -14,7 +14,7 @@ const Hero = () => {
             <br />
             <span className="bold-text">Shumaila Hassan</span>
             <br />
-            <span className="normal-text">and I'm a </span>
+            <span className="normal-text">and I am a </span>
             <span className="highlight-text">Frontend Developer</span>
           </h1>
           <p className="hero-description">
